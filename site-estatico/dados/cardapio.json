@@ -765,6 +765,18 @@
       "kind": "pizza"
     },
     {
+      "id": 132,
+      "cat": "Doces tradicionais",
+      "name": "NEVADA",
+      "desc": "chocolate branco, mussarela, banana e canela",
+      "prices": {
+        "P": 32,
+        "M": 38,
+        "G": 44
+      },
+      "kind": "pizza"
+    },
+    {
       "id": 63,
       "cat": "Doces Premium",
       "name": "KINDER BUENO",
@@ -1321,7 +1333,7 @@
       "name": "CAIPIRINHA TRADICIONAL",
       "desc": "",
       "prices": {
-        "Unidade": 8
+        "Unidade": 14
       },
       "kind": "regular"
     },
@@ -1331,7 +1343,7 @@
       "name": "CAIPIRINHA SABORES",
       "desc": "",
       "prices": {
-        "Unidade": 9
+        "Unidade": 16
       },
       "kind": "regular"
     },
@@ -1341,7 +1353,7 @@
       "name": "CAIPIROSCA TRADICIONAL",
       "desc": "",
       "prices": {
-        "Unidade": 9
+        "Unidade": 14
       },
       "kind": "regular"
     },
@@ -1351,7 +1363,7 @@
       "name": "CAIPIROSCA SABORES",
       "desc": "",
       "prices": {
-        "Unidade": 10
+        "Unidade": 16
       },
       "kind": "regular"
     },
@@ -1361,7 +1373,7 @@
       "name": "NEVADA",
       "desc": "",
       "prices": {
-        "Unidade": 12
+        "Unidade": 16
       },
       "kind": "regular"
     },
@@ -1371,7 +1383,7 @@
       "name": "ESPANHOLA",
       "desc": "",
       "prices": {
-        "Unidade": 12
+        "Unidade": 16
       },
       "kind": "regular"
     },
@@ -1381,7 +1393,7 @@
       "name": "CAIPIFRUTA",
       "desc": "Caipifruta: maracujá, kiwi e morango",
       "prices": {
-        "Unidade": 15
+        "Unidade": 16
       },
       "kind": "regular"
     },
@@ -1391,7 +1403,7 @@
       "name": "PIÑA COLADA",
       "desc": "",
       "prices": {
-        "Unidade": 15
+        "Unidade": 16
       },
       "kind": "regular"
     },
