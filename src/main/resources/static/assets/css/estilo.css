@@ -212,3 +212,15 @@ footer.footer{background:#130c09ec!important;margin-top:20px;border-top:1px soli
 @media(max-width:720px){.ambient-art{object-position:center bottom}.ambient-dim{background:linear-gradient(180deg,#0c070563,#0c070582 38%,#0b07057e 76%,#0b070566)}.hero-copy{padding:15px 8px!important}.hero-copy h1{font-size:clamp(40px,10vw,59px)!important}.welcome-steps{padding:19px}.brand-shell{max-width:100%}.whatsapp-quick{padding:9px 11px}.wa-label{display:none}.header-cart{padding:9px 10px}.hero-actions{gap:10px}.hero-actions .primary,.whatsapp-direct{padding:12px 14px}.history-photo-grid{grid-template-columns:1fr}.photo-wrap{max-width:100%}#cardapio{border-radius:12px;width:calc(100% - 18px);padding:0 6px 12px;margin-top:9px}}
 @media(max-width:380px){.brand-title{font-size:12px!important}.logo-image{width:90px}.brand-mark{min-width:92px}.brand-shell{gap:4px;padding:7px}.whatsapp-quick{padding:8px}.header-cart{padding:8px}}
 @media(prefers-reduced-motion:reduce){.ambient-art{animation:none!important;transform:none!important}.ambient-smoke{display:none!important}}
+
+/* Carrinho: continuar comprando sem perder os produtos */
+.add-more-items{display:flex;align-items:center;gap:12px;width:100%;margin-top:17px;padding:14px 15px;background:linear-gradient(125deg,#183a25,#14251b);color:#f6e2b8;border:1px solid #b49a5d;border-radius:12px;box-shadow:inset 0 1px 0 #ffffff12;text-align:left;transition:background .2s,border-color .2s,transform .2s}
+.add-more-items:hover{background:linear-gradient(125deg,#215133,#172d20);border-color:#f0c27e;transform:translateY(-1px)}
+.add-more-items:focus-visible{outline:3px solid #f7db9b;outline-offset:3px}
+.add-more-items .add-more-icon{display:flex;align-items:center;justify-content:center;flex:none;width:37px;height:37px;border-radius:10px;background:#d5b16b;color:#1c2015;font-size:29px;font-weight:700;line-height:1}
+.add-more-items span:nth-child(2){display:flex;flex-direction:column;gap:2px;flex:1;min-width:0}
+.add-more-items strong{font-size:15px;line-height:1.3}
+.add-more-items small{font-size:11px;line-height:1.3;color:#cbbca0}
+.add-more-items .add-more-arrow{font-size:24px;color:#e6c077;line-height:1}
+#cardapio{scroll-margin-top:90px}
+@media(max-width:520px){.add-more-items{padding:12px;gap:10px}.add-more-items strong{font-size:14px}.add-more-items .add-more-icon{width:33px;height:33px;font-size:25px}}
