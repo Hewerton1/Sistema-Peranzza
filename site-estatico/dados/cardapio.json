@@ -753,6 +753,18 @@
       "kind": "pizza"
     },
     {
+      "id": 131,
+      "cat": "Doces tradicionais",
+      "name": "DUO",
+      "desc": "",
+      "prices": {
+        "P": 32,
+        "M": 38,
+        "G": 44
+      },
+      "kind": "pizza"
+    },
+    {
       "id": 63,
       "cat": "Doces Premium",
       "name": "KINDER BUENO",
@@ -967,6 +979,46 @@
       "kind": "regular"
     },
     {
+      "id": 127,
+      "cat": "Sobremesas",
+      "name": "LIMÃO",
+      "desc": "Sobremesa no potinho",
+      "prices": {
+        "Unidade": 8
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 128,
+      "cat": "Sobremesas",
+      "name": "OREO",
+      "desc": "Sobremesa no potinho",
+      "prices": {
+        "Unidade": 8
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 129,
+      "cat": "Sobremesas",
+      "name": "OURO BRANCO",
+      "desc": "Sobremesa no potinho",
+      "prices": {
+        "Unidade": 8
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 130,
+      "cat": "Sobremesas",
+      "name": "PUDIM",
+      "desc": "Sobremesa no potinho",
+      "prices": {
+        "Unidade": 8
+      },
+      "kind": "regular"
+    },
+    {
       "id": 83,
       "cat": "Sucos",
       "name": "SUCO DE ABACAXI C/ HORTELÃ",
@@ -1154,6 +1206,16 @@
       "kind": "regular"
     },
     {
+      "id": 126,
+      "cat": "Bebidas",
+      "name": "PETRA LATA",
+      "desc": "",
+      "prices": {
+        "Unidade": 6
+      },
+      "kind": "regular"
+    },
+    {
       "id": 99,
       "cat": "Bebidas",
       "name": "HEINEKEN LONG NECK",
@@ -1169,7 +1231,7 @@
       "name": "BUDWEISER LONG NECK",
       "desc": "",
       "prices": {
-        "Unidade": 9
+        "Unidade": 10
       },
       "kind": "regular"
     },
@@ -1217,16 +1279,6 @@
       "id": 105,
       "cat": "Bebidas",
       "name": "REFRIGERANTE LATA 350 ML",
-      "desc": "",
-      "prices": {
-        "Unidade": 6
-      },
-      "kind": "regular"
-    },
-    {
-      "id": 106,
-      "cat": "Drinks e destilados",
-      "name": "DOMEC",
       "desc": "",
       "prices": {
         "Unidade": 6
