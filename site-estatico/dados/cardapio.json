@@ -1,0 +1,1461 @@
+{
+  "itens": [
+    {
+      "id": 1,
+      "cat": "Tradicionais",
+      "name": "ALHO E ÓLEO",
+      "desc": "mussarela, alho frito, parmesão, tomate e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 2,
+      "cat": "Tradicionais",
+      "name": "AMERICANA",
+      "desc": "bacon, ovo, mussarela, parmesão, tomate e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 3,
+      "cat": "Tradicionais",
+      "name": "ATUM I",
+      "desc": "atum, mussarela, tomate e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 4,
+      "cat": "Tradicionais",
+      "name": "ATUM II",
+      "desc": "atum, cebola e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 5,
+      "cat": "Tradicionais",
+      "name": "BACON",
+      "desc": "mussarela, bacon, tomate e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 6,
+      "cat": "Tradicionais",
+      "name": "BAIANA",
+      "desc": "calabresa, ovo, cebola, pimenta e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 7,
+      "cat": "Tradicionais",
+      "name": "BAURU",
+      "desc": "presunto, mussarela, tomate e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 8,
+      "cat": "Tradicionais",
+      "name": "BRASILEIRA",
+      "desc": "presunto, palmito, ervilha, ovo, mussarela e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 9,
+      "cat": "Tradicionais",
+      "name": "CALABRESA I",
+      "desc": "calabresa, cebola e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 10,
+      "cat": "Tradicionais",
+      "name": "CALABRESA II",
+      "desc": "calabresa, catupiry e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 11,
+      "cat": "Tradicionais",
+      "name": "CANADENSE",
+      "desc": "lombo, champignon, cebola, mussarela e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 12,
+      "cat": "Tradicionais",
+      "name": "CHAMPIGNON",
+      "desc": "champignon, palmito, mussarela e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 13,
+      "cat": "Tradicionais",
+      "name": "COREANA",
+      "desc": "frango, cebola, catupiry, palmito, mussarela e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 14,
+      "cat": "Tradicionais",
+      "name": "DOIS QUEIJOS",
+      "desc": "mussarela, catupiry e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 15,
+      "cat": "Tradicionais",
+      "name": "ESPANHOLA",
+      "desc": "presunto, calabresa, palmito, ovo, bacon, mussarela e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 16,
+      "cat": "Tradicionais",
+      "name": "FRANGO I",
+      "desc": "frango, mussarela e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 17,
+      "cat": "Tradicionais",
+      "name": "FRANGO II",
+      "desc": "frango, catupiry e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 18,
+      "cat": "Tradicionais",
+      "name": "FRANGO III",
+      "desc": "frango, milho, bacon, catupiry, tomate e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 19,
+      "cat": "Tradicionais",
+      "name": "FRANGO CAIPIRA",
+      "desc": "frango, milho, ervilha, mussarela e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 20,
+      "cat": "Tradicionais",
+      "name": "FRANGO DO CHEF",
+      "desc": "frango e cheddar",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 21,
+      "cat": "Tradicionais",
+      "name": "FRANHABESA",
+      "desc": "frango, calabresa, mussarela e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 22,
+      "cat": "Tradicionais",
+      "name": "GOIANA",
+      "desc": "atum, ovos, presunto, azeitona, catupiry, cebola, mussarela e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 23,
+      "cat": "Tradicionais",
+      "name": "GREGA",
+      "desc": "palmito, ervilha, cebola, mussarela, tomate e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 24,
+      "cat": "Tradicionais",
+      "name": "LOMBO",
+      "desc": "lombo, palmito, mussarela, tomate e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 25,
+      "cat": "Tradicionais",
+      "name": "MARGUERITA",
+      "desc": "mussarela, tomate, manjericão e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 26,
+      "cat": "Tradicionais",
+      "name": "MEXICANA",
+      "desc": "frango, champignon, pimenta, mussarela e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 27,
+      "cat": "Tradicionais",
+      "name": "MISTA",
+      "desc": "frango, presunto, mussarela e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 28,
+      "cat": "Tradicionais",
+      "name": "MODA DA CASA",
+      "desc": "calabresa, bacon, ovo, catupiry, mussarela e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 29,
+      "cat": "Tradicionais",
+      "name": "MUÇARELA",
+      "desc": "mussarela, tomate e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 30,
+      "cat": "Tradicionais",
+      "name": "NAPOLITANA",
+      "desc": "mussarela, parmesão, tomate e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 31,
+      "cat": "Tradicionais",
+      "name": "PAULISTA",
+      "desc": "calabresa, cebola, ovo, ervilha, palmito, mussarela e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 32,
+      "cat": "Tradicionais",
+      "name": "PALMITO",
+      "desc": "palmito, mussarela e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 33,
+      "cat": "Tradicionais",
+      "name": "PERANZZA",
+      "desc": "frango, calabresa, bacon, mussarela e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 34,
+      "cat": "Tradicionais",
+      "name": "PERUANA",
+      "desc": "peito de peru, bacon, champignon, mussarela e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 35,
+      "cat": "Tradicionais",
+      "name": "PIZZAIOLO",
+      "desc": "frango, milho, catupiry, batata palha e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 36,
+      "cat": "Tradicionais",
+      "name": "PORTUGUESA",
+      "desc": "presunto, ervilha, ovo, cebola, mussarela e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 37,
+      "cat": "Tradicionais",
+      "name": "PROVOLONE",
+      "desc": "mussarela, provolone, tomate e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 38,
+      "cat": "Tradicionais",
+      "name": "QUATRO QUEIJOS",
+      "desc": "mussarela, catupiry, provolone, parmesão e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 39,
+      "cat": "Tradicionais",
+      "name": "ROMANA",
+      "desc": "atum, frango, mussarela e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 40,
+      "cat": "Tradicionais",
+      "name": "TALENTOSA",
+      "desc": "presunto, palmito, catupiry, mussarela e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 41,
+      "cat": "Tradicionais",
+      "name": "TOSCANA I",
+      "desc": "mussarela, calabresa e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 42,
+      "cat": "Tradicionais",
+      "name": "TOSCANA II",
+      "desc": "calabresa, mussarela e orégano",
+      "prices": {
+        "P": 30,
+        "M": 34,
+        "G": 38
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 43,
+      "cat": "Especiais",
+      "name": "MINEIRA",
+      "desc": "carne seca, provolone, catupiry, mussarela e orégano",
+      "prices": {
+        "P": 32,
+        "M": 36,
+        "G": 40
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 44,
+      "cat": "Especiais",
+      "name": "PERNAMBUCANA",
+      "desc": "carne seca, ovo, catupiry, mussarela e orégano",
+      "prices": {
+        "P": 32,
+        "M": 36,
+        "G": 40
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 45,
+      "cat": "Especiais",
+      "name": "PICANHA",
+      "desc": "carne, milho, cebola, catupiry, mussarela e orégano",
+      "prices": {
+        "P": 32,
+        "M": 36,
+        "G": 40
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 46,
+      "cat": "Especiais",
+      "name": "REGIONAL",
+      "desc": "frango, carne de sol, cebola, catupiry, mussarela e orégano",
+      "prices": {
+        "P": 32,
+        "M": 36,
+        "G": 40
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 47,
+      "cat": "Especiais",
+      "name": "PRIMAVERA",
+      "desc": "mussarela, rúcula, tomate seco, bacon, azeitona e orégano",
+      "prices": {
+        "P": 32,
+        "M": 36,
+        "G": 40
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 48,
+      "cat": "Especiais",
+      "name": "ESPANHOLA",
+      "desc": "presunto, calabresa, palmito, ovo, bacon, mussarela e orégano",
+      "prices": {
+        "P": 32,
+        "M": 36,
+        "G": 40
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 49,
+      "cat": "Premium salgadas",
+      "name": "CALABRESA II",
+      "desc": "calabresa, requeijão original e orégano",
+      "prices": {
+        "P": 36,
+        "M": 45,
+        "G": 60,
+        "GG": 74
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 50,
+      "cat": "Premium salgadas",
+      "name": "GORGONZOLA",
+      "desc": "muçarela, gorgonzola, requeijão original, azeitona preta e orégano",
+      "prices": {
+        "P": 36,
+        "M": 45,
+        "G": 60,
+        "GG": 74
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 51,
+      "cat": "Premium salgadas",
+      "name": "FRANGO III",
+      "desc": "frango, milho, bacon, requeijão original, tomate e orégano",
+      "prices": {
+        "P": 36,
+        "M": 45,
+        "G": 60,
+        "GG": 74
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 52,
+      "cat": "Premium salgadas",
+      "name": "PEPPERONI",
+      "desc": "muçarela, requeijão original, pepperoni e orégano",
+      "prices": {
+        "P": 36,
+        "M": 45,
+        "G": 60,
+        "GG": 74
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 53,
+      "cat": "Premium salgadas",
+      "name": "QUATRO QUEIJOS",
+      "desc": "muçarela, requeijão original, provolone, parmesão e orégano",
+      "prices": {
+        "P": 36,
+        "M": 45,
+        "G": 60,
+        "GG": 74
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 54,
+      "cat": "Premium salgadas",
+      "name": "CINCO QUEIJOS",
+      "desc": "muçarela, requeijão original, provolone, parmesão, gorgonzola e orégano",
+      "prices": {
+        "P": 36,
+        "M": 45,
+        "G": 60,
+        "GG": 74
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 55,
+      "cat": "Premium salgadas",
+      "name": "COSTELA CARAMELIZADA",
+      "desc": "costela bovina desfiada, muçarela e cebola caramelizada",
+      "prices": {
+        "P": 36,
+        "M": 45,
+        "G": 60,
+        "GG": 74
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 56,
+      "cat": "Premium salgadas",
+      "name": "COSTELA RÚSTICA",
+      "desc": "costela bovina desfiada, muçarela e Catupiry original",
+      "prices": {
+        "P": 36,
+        "M": 45,
+        "G": 60,
+        "GG": 74
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 57,
+      "cat": "Doces tradicionais",
+      "name": "BRIGADEIRO",
+      "desc": "creme de avelã, granulado e morango",
+      "prices": {
+        "P": 32,
+        "M": 38,
+        "G": 44
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 58,
+      "cat": "Doces tradicionais",
+      "name": "DOCE DE LEITE",
+      "desc": "muçarela, doce de leite e amendoim",
+      "prices": {
+        "P": 32,
+        "M": 38,
+        "G": 44
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 59,
+      "cat": "Doces tradicionais",
+      "name": "CARTOLA",
+      "desc": "muçarela, banana, açúcar e canela em pó",
+      "prices": {
+        "P": 32,
+        "M": 38,
+        "G": 44
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 60,
+      "cat": "Doces tradicionais",
+      "name": "FERRERO ROCHER",
+      "desc": "creme de avelã e amendoim",
+      "prices": {
+        "P": 32,
+        "M": 38,
+        "G": 44
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 61,
+      "cat": "Doces tradicionais",
+      "name": "M&M’S",
+      "desc": "creme de avelã e M&M’s",
+      "prices": {
+        "P": 32,
+        "M": 38,
+        "G": 44
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 62,
+      "cat": "Doces tradicionais",
+      "name": "PRESTÍGIO",
+      "desc": "creme de avelã, coco ralado e cereja",
+      "prices": {
+        "P": 32,
+        "M": 38,
+        "G": 44
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 63,
+      "cat": "Doces Premium",
+      "name": "KINDER BUENO",
+      "desc": "Kinder Bueno, chocolate branco, Ovomaltine e leite em pó",
+      "prices": {
+        "P": 36,
+        "M": 45,
+        "G": 60,
+        "GG": 74
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 64,
+      "cat": "Doces Premium",
+      "name": "BERRY CHEESY",
+      "desc": "cream cheese, chocolate branco e calda de frutas vermelhas",
+      "prices": {
+        "P": 36,
+        "M": 45,
+        "G": 60,
+        "GG": 74
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 65,
+      "cat": "Doces Premium",
+      "name": "PISTACHIO PERANZZA",
+      "desc": "creme de pistache, chocolate ao creme e amendoim",
+      "prices": {
+        "P": 36,
+        "M": 45,
+        "G": 60,
+        "GG": 74
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 66,
+      "cat": "Doces Premium",
+      "name": "DOLCE PERANZZA",
+      "desc": "doce de leite, cream cheese e canela",
+      "prices": {
+        "P": 36,
+        "M": 45,
+        "G": 60,
+        "GG": 74
+      },
+      "kind": "pizza"
+    },
+    {
+      "id": 67,
+      "cat": "Pratos",
+      "name": "FILÉ À PARMEGIANA",
+      "desc": "filé bovino, macarrão, mussarela, molho da casa e fritas",
+      "prices": {
+        "M": 65,
+        "G": 80
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 68,
+      "cat": "Pratos",
+      "name": "LASANHA À BOLONHESA",
+      "desc": "molho à bolonhesa, macarrão, mussarela e molho da casa",
+      "prices": {
+        "Único": 45
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 69,
+      "cat": "Pratos",
+      "name": "LASANHA INDIVIDUAL",
+      "desc": "lasanha individual",
+      "prices": {
+        "Único": 25
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 70,
+      "cat": "Panquecas",
+      "name": "BAURU",
+      "desc": "molho da casa, mussarela e presunto",
+      "prices": {
+        "Unidade": 8
+      },
+      "kind": "panqueca"
+    },
+    {
+      "id": 71,
+      "cat": "Panquecas",
+      "name": "CARNE SECA",
+      "desc": "molho da casa, carne seca e mussarela",
+      "prices": {
+        "Unidade": 8
+      },
+      "kind": "panqueca"
+    },
+    {
+      "id": 72,
+      "cat": "Panquecas",
+      "name": "FRANGO",
+      "desc": "molho da casa, frango e mussarela",
+      "prices": {
+        "Unidade": 8
+      },
+      "kind": "panqueca"
+    },
+    {
+      "id": 73,
+      "cat": "Panquecas",
+      "name": "FRANGO CATUPIRY",
+      "desc": "molho da casa, frango catupiry e mussarela",
+      "prices": {
+        "Unidade": 8
+      },
+      "kind": "panqueca"
+    },
+    {
+      "id": 74,
+      "cat": "Panquecas",
+      "name": "MUSSARELA",
+      "desc": "molho da casa e mussarela",
+      "prices": {
+        "Unidade": 8
+      },
+      "kind": "panqueca"
+    },
+    {
+      "id": 75,
+      "cat": "Porções",
+      "name": "FRITAS",
+      "desc": "batatas fritas",
+      "prices": {
+        "M": 16,
+        "G": 20
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 76,
+      "cat": "Porções",
+      "name": "FRITAS COM BACON",
+      "desc": "batatas fritas com bacon",
+      "prices": {
+        "G": 25
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 77,
+      "cat": "Porções",
+      "name": "FRITAS BACON E CHEDDAR",
+      "desc": "batatas fritas com bacon e cheddar",
+      "prices": {
+        "G": 28
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 78,
+      "cat": "Porções",
+      "name": "FRITAS COM CALABRESA",
+      "desc": "batatas fritas com calabresa",
+      "prices": {
+        "G": 38
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 79,
+      "cat": "Sobremesas",
+      "name": "MARACUJÁ COM CHOCOLATE",
+      "desc": "sobremesa no potinho",
+      "prices": {
+        "Unidade": 8
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 80,
+      "cat": "Sobremesas",
+      "name": "SENSAÇÃO",
+      "desc": "sobremesa no potinho",
+      "prices": {
+        "Unidade": 8
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 81,
+      "cat": "Sobremesas",
+      "name": "DELÍCIA DE MARACUJÁ",
+      "desc": "sobremesa no potinho",
+      "prices": {
+        "Unidade": 8
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 82,
+      "cat": "Sobremesas",
+      "name": "DELÍCIA DE ABACAXI",
+      "desc": "sobremesa no potinho",
+      "prices": {
+        "Unidade": 8
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 83,
+      "cat": "Sucos",
+      "name": "SUCO DE ABACAXI C/ HORTELÃ",
+      "desc": "Escolha com água ou leite; copo ou jarra",
+      "prices": {
+        "Água · copo": 8,
+        "Água · jarra": 15,
+        "Leite · copo": 9,
+        "Leite · jarra": 17
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 84,
+      "cat": "Sucos",
+      "name": "SUCO DE ACEROLA",
+      "desc": "Escolha com água ou leite; copo ou jarra",
+      "prices": {
+        "Água · copo": 8,
+        "Água · jarra": 15,
+        "Leite · copo": 9,
+        "Leite · jarra": 17
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 85,
+      "cat": "Sucos",
+      "name": "SUCO DE CAJÁ",
+      "desc": "Escolha com água ou leite; copo ou jarra",
+      "prices": {
+        "Água · copo": 8,
+        "Água · jarra": 15,
+        "Leite · copo": 9,
+        "Leite · jarra": 17
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 86,
+      "cat": "Sucos",
+      "name": "SUCO DE GRAVIOLA",
+      "desc": "Escolha com água ou leite; copo ou jarra",
+      "prices": {
+        "Água · copo": 8,
+        "Água · jarra": 15,
+        "Leite · copo": 9,
+        "Leite · jarra": 17
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 87,
+      "cat": "Sucos",
+      "name": "SUCO DE MARACUJÁ",
+      "desc": "Escolha com água ou leite; copo ou jarra",
+      "prices": {
+        "Água · copo": 8,
+        "Água · jarra": 15,
+        "Leite · copo": 9,
+        "Leite · jarra": 17
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 88,
+      "cat": "Sucos",
+      "name": "SUCO DE MORANGO",
+      "desc": "Escolha com água ou leite; copo ou jarra",
+      "prices": {
+        "Água · copo": 8,
+        "Água · jarra": 15,
+        "Leite · copo": 9,
+        "Leite · jarra": 17
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 89,
+      "cat": "Sucos",
+      "name": "SUCO DE MANGA",
+      "desc": "Escolha com água ou leite; copo ou jarra",
+      "prices": {
+        "Água · copo": 8,
+        "Água · jarra": 15,
+        "Leite · copo": 9,
+        "Leite · jarra": 17
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 90,
+      "cat": "Sucos",
+      "name": "SUCO DE GOIABA",
+      "desc": "Escolha com água ou leite; copo ou jarra",
+      "prices": {
+        "Água · copo": 8,
+        "Água · jarra": 15,
+        "Leite · copo": 9,
+        "Leite · jarra": 17
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 91,
+      "cat": "Sucos",
+      "name": "SUCO DE CAJU",
+      "desc": "Escolha com água ou leite; copo ou jarra",
+      "prices": {
+        "Água · copo": 8,
+        "Água · jarra": 15,
+        "Leite · copo": 9,
+        "Leite · jarra": 17
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 92,
+      "cat": "Bebidas",
+      "name": "ÁGUA MINERAL 500 ML",
+      "desc": "",
+      "prices": {
+        "Unidade": 3
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 93,
+      "cat": "Bebidas",
+      "name": "ÁGUA COM GÁS 500 ML",
+      "desc": "",
+      "prices": {
+        "Unidade": 4
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 94,
+      "cat": "Bebidas",
+      "name": "H2O 500 ML",
+      "desc": "",
+      "prices": {
+        "Unidade": 6
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 95,
+      "cat": "Bebidas",
+      "name": "BOHEMIA LATA",
+      "desc": "",
+      "prices": {
+        "Unidade": 6
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 96,
+      "cat": "Bebidas",
+      "name": "DEVASSA LATA",
+      "desc": "",
+      "prices": {
+        "Unidade": 6
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 97,
+      "cat": "Bebidas",
+      "name": "ITAIPAVA LATA",
+      "desc": "",
+      "prices": {
+        "Unidade": 6
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 98,
+      "cat": "Bebidas",
+      "name": "SKOL LATA",
+      "desc": "",
+      "prices": {
+        "Unidade": 6
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 99,
+      "cat": "Bebidas",
+      "name": "HEINEKEN LONG NECK",
+      "desc": "",
+      "prices": {
+        "Unidade": 10
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 100,
+      "cat": "Bebidas",
+      "name": "BUDWEISER LONG NECK",
+      "desc": "",
+      "prices": {
+        "Unidade": 9
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 101,
+      "cat": "Bebidas",
+      "name": "RED BULL",
+      "desc": "",
+      "prices": {
+        "Unidade": 10
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 102,
+      "cat": "Bebidas",
+      "name": "MONSTER",
+      "desc": "",
+      "prices": {
+        "Unidade": 15
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 103,
+      "cat": "Bebidas",
+      "name": "REFRIGERANTE 2 LITROS",
+      "desc": "",
+      "prices": {
+        "Unidade": 14
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 104,
+      "cat": "Bebidas",
+      "name": "REFRIGERANTE 1 LITRO",
+      "desc": "",
+      "prices": {
+        "Unidade": 10
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 105,
+      "cat": "Bebidas",
+      "name": "REFRIGERANTE LATA 350 ML",
+      "desc": "",
+      "prices": {
+        "Unidade": 6
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 106,
+      "cat": "Drinks e destilados",
+      "name": "DOMEC",
+      "desc": "",
+      "prices": {
+        "Unidade": 6
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 107,
+      "cat": "Drinks e destilados",
+      "name": "DREHER",
+      "desc": "",
+      "prices": {
+        "Unidade": 4
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 108,
+      "cat": "Drinks e destilados",
+      "name": "RUM DOSE",
+      "desc": "",
+      "prices": {
+        "Unidade": 4
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 109,
+      "cat": "Drinks e destilados",
+      "name": "RUM QUARTINHO",
+      "desc": "",
+      "prices": {
+        "Unidade": 8
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 110,
+      "cat": "Drinks e destilados",
+      "name": "CAIPIRINHA TRADICIONAL",
+      "desc": "",
+      "prices": {
+        "Unidade": 8
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 111,
+      "cat": "Drinks e destilados",
+      "name": "CAIPIRINHA SABORES",
+      "desc": "",
+      "prices": {
+        "Unidade": 9
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 112,
+      "cat": "Drinks e destilados",
+      "name": "CAIPIROSCA TRADICIONAL",
+      "desc": "",
+      "prices": {
+        "Unidade": 9
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 113,
+      "cat": "Drinks e destilados",
+      "name": "CAIPIROSCA SABORES",
+      "desc": "",
+      "prices": {
+        "Unidade": 10
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 114,
+      "cat": "Drinks e destilados",
+      "name": "NEVADA",
+      "desc": "",
+      "prices": {
+        "Unidade": 12
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 115,
+      "cat": "Drinks e destilados",
+      "name": "ESPANHOLA",
+      "desc": "",
+      "prices": {
+        "Unidade": 12
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 116,
+      "cat": "Drinks e destilados",
+      "name": "CAIPIFRUTA",
+      "desc": "Caipifruta: maracujá, kiwi e morango",
+      "prices": {
+        "Unidade": 15
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 117,
+      "cat": "Drinks e destilados",
+      "name": "PIÑA COLADA",
+      "desc": "",
+      "prices": {
+        "Unidade": 15
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 118,
+      "cat": "Drinks e destilados",
+      "name": "QUINTA DO MORGADO TAÇA",
+      "desc": "",
+      "prices": {
+        "Unidade": 10
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 119,
+      "cat": "Drinks e destilados",
+      "name": "QUINTA DO MORGADO GARRAFA",
+      "desc": "",
+      "prices": {
+        "Unidade": 35
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 120,
+      "cat": "Drinks e destilados",
+      "name": "PÉRGOLA TAÇA",
+      "desc": "",
+      "prices": {
+        "Unidade": 10
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 121,
+      "cat": "Drinks e destilados",
+      "name": "PÉRGOLA GARRAFA",
+      "desc": "",
+      "prices": {
+        "Unidade": 35
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 122,
+      "cat": "Drinks e destilados",
+      "name": "RED LABEL DOSE",
+      "desc": "",
+      "prices": {
+        "Unidade": 12
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 123,
+      "cat": "Drinks e destilados",
+      "name": "BLACK & WHITE DOSE",
+      "desc": "",
+      "prices": {
+        "Unidade": 7
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 124,
+      "cat": "Drinks e destilados",
+      "name": "OLD PARR DOSE",
+      "desc": "",
+      "prices": {
+        "Unidade": 18
+      },
+      "kind": "regular"
+    },
+    {
+      "id": 125,
+      "cat": "Drinks e destilados",
+      "name": "WHITE HORSE DOSE",
+      "desc": "",
+      "prices": {
+        "Unidade": 10
+      },
+      "kind": "regular"
+    }
+  ],
+  "bordas": [
+    {
+      "nome": "Sem borda",
+      "preco": 0
+    },
+    {
+      "nome": "Requeijão",
+      "preco": 10
+    },
+    {
+      "nome": "Chocolate",
+      "preco": 10
+    },
+    {
+      "nome": "Cream cheese",
+      "preco": 10
+    },
+    {
+      "nome": "Cheddar",
+      "preco": 4
+    },
+    {
+      "nome": "Catupiry",
+      "preco": 4
+    },
+    {
+      "nome": "Cheddar original",
+      "preco": 10
+    },
+    {
+      "nome": "Pistache",
+      "preco": 10
+    }
+  ]
+}
