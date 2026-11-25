@@ -224,3 +224,15 @@ footer.footer{background:#130c09ec!important;margin-top:20px;border-top:1px soli
 .add-more-items .add-more-arrow{font-size:24px;color:#e6c077;line-height:1}
 #cardapio{scroll-margin-top:90px}
 @media(max-width:520px){.add-more-items{padding:12px;gap:10px}.add-more-items strong{font-size:14px}.add-more-items .add-more-icon{width:33px;height:33px;font-size:25px}}
+
+/* Personalização de pizza: todas as categorias disponíveis para combinações. */
+.flavor-fieldset{margin:14px 0 4px;padding:13px 14px 16px;border:1px solid #775333;border-radius:10px;background:#291d15}
+.flavor-fieldset .fieldlabel{margin:11px 0 7px}
+.flavor-step{font:700 17px Georgia,serif;color:#f9d499}
+.flavor-fieldset select:disabled{opacity:.55;cursor:not-allowed}
+.flavor-price-info{margin-top:13px;color:#e4c498}
+.flavor-error{margin:8px 0 0;color:#ffd3ae;font-size:13px;font-weight:650}
+#ggFlavorControls{margin-top:12px}
+#ggFlavorCount{border-color:#be8e4a;background:#2f2015}
+#pizzaOptions[hidden],#halfOptions[hidden],#thirdOptions[hidden],#ggFlavorControls[hidden],#normalFlavorControls[hidden]{display:none}
+@media(max-width:520px){.flavor-fieldset{padding:11px 12px}}
