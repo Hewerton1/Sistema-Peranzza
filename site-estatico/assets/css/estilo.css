@@ -236,3 +236,9 @@ footer.footer{background:#130c09ec!important;margin-top:20px;border-top:1px soli
 #ggFlavorCount{border-color:#be8e4a;background:#2f2015}
 #pizzaOptions[hidden],#halfOptions[hidden],#thirdOptions[hidden],#ggFlavorControls[hidden],#normalFlavorControls[hidden]{display:none}
 @media(max-width:520px){.flavor-fieldset{padding:11px 12px}}
+
+/* Agradecimento visível após preparar o pedido para envio pelo WhatsApp. */
+.order-thanks{margin-top:16px;padding:16px;border:1px solid #cda15a;border-radius:12px;background:linear-gradient(140deg,#342719,#201810);box-shadow:0 6px 20px #0006;color:#ffedca;line-height:1.55}
+.order-thanks strong{display:block;color:#ffdb9e;font:700 19px Georgia,serif;margin-bottom:7px}
+.order-thanks p{font-size:13px;margin:0;color:#f6e3c4}
+.order-thanks b{color:#ffe3a3}

@@ -44,6 +44,9 @@ window.PERANZZA_CONFIG_READY.then(()=>{
   byId('message').value=message;
   send.href=url;send.hidden=false;
   result.hidden=false;
+  // Agradecimento pelo interesse, sem alegar que o pedido já foi recebido.
+  // O WhatsApp não informa ao site se a pessoa realmente tocou em Enviar.
+  byId('orderThanks').hidden=false;
   // Acionamento direto por clique, sem abrir WhatsApp antes da escolha dos dados.
   const opened=window.open(url,'_blank','noopener,noreferrer');
   // Caso o navegador bloqueie pop-ups, o link fica à vista para tocar novamente.

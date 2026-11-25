@@ -49,6 +49,23 @@ function currentFlavorCount() {
 function getFlavor(id) {
   return ITEMS.find(item => item.id === Number(id) && pizza(item));
 }
+// As bordas de R$ 4 passam a R$ 8 na GG; as de R$ 10, a R$ 16.
+// Para P, M e G, continuam valendo os preços originais do cardápio.
+function edgePrice(index, size = sz) {
+  const original = Number(EDGES[Number(index)]?.[1] ?? 0);
+  if (size === 'GG' && original === 4) return 8;
+  if (size === 'GG' && original === 10) return 16;
+  return original;
+}
+function renderEdgeOptions() {
+  const field = $('#edge');
+  const keepIndex = Number(field.value || 0);
+  field.innerHTML = EDGES.map((edge, index) => {
+    const price = edgePrice(index);
+    return `<option value="${index}">${escapeHtml(edge[0])}${price ? ' + ' + money(price) : ''}</option>`;
+  }).join('');
+  field.value = String(EDGES[keepIndex] ? keepIndex : 0);
+}
 function pickedFlavors() {
   const list = selected && pizza(selected) ? [selected] : [];
   const count = currentFlavorCount();
@@ -114,7 +131,6 @@ function openProduct(id) {
   $('#extraCat').checked = false;
   $('#pizzaOptions').hidden = !pizza(selected);
   $('#panOptions').hidden = selected.kind !== 'panqueca';
-  $('#edge').innerHTML = EDGES.map((edge, index) => `<option value="${index}">${escapeHtml(edge[0])}${edge[1] ? ' + ' + money(edge[1]) : ''}</option>`).join('');
   $('#edge').value = '0';
   fillCategorySelect('#secondCategory');
   fillCategorySelect('#thirdCategory');
@@ -137,6 +153,7 @@ function renderSizes() {
     renderSizes();
   });
   $('#qty').textContent = qty;
+  if (pizza(selected)) renderEdgeOptions();
   if (pizza(selected)) refreshFlavorSelectors();
   else refreshPrice();
 }
@@ -146,7 +163,7 @@ function unitPrice() {
   if (pizza(selected)) {
     const flavors = pickedFlavors();
     value = Math.max(...flavors.map(item => Number(item.prices[sz])));
-    value += Number(EDGES[Number($('#edge').value || 0)]?.[1] ?? 0);
+    value += edgePrice($('#edge').value);
   }
   if (selected.kind === 'panqueca' && $('#extraCat').checked) value += 3;
   return value;
@@ -190,7 +207,10 @@ $('#addToCart').onclick = () => {
       const label = flavors.length === 3 ? '3 sabores' : 'meio a meio';
       details += ` · ${label}: ` + flavors.map(item => `${item.name} (${item.cat})`).join(' + ');
     }
-    if (Number($('#edge').value) > 0) details += ` · borda ${EDGES[Number($('#edge').value)][0]}`;
+    if (Number($('#edge').value) > 0) {
+      const edgeIndex = Number($('#edge').value);
+      details += ` · borda ${EDGES[edgeIndex][0]} (+ ${money(edgePrice(edgeIndex))})`;
+    }
   }
   if (selected.kind === 'panqueca' && $('#extraCat').checked) details += ' · Catupiry original';
   cart.push({name, details, qty, unit: unitPrice()});
@@ -215,6 +235,7 @@ function renderCart() {
   document.querySelectorAll('[data-inc]').forEach(button => button.onclick = () => {cart[Number(button.dataset.inc)].qty++; renderCart();});
   document.querySelectorAll('[data-del]').forEach(button => button.onclick = () => {cart.splice(Number(button.dataset.del), 1); renderCart();});
   $('#checkoutResult').hidden = true;
+  $('#orderThanks').hidden = true;
 }
 $('#addMoreItems').onclick = () => {
   hide('cartOverlay');
